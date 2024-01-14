@@ -34,7 +34,7 @@ pip install streamlit==1.29.0
 To run the application, execute the following command in your terminal:
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 ## Application Features
