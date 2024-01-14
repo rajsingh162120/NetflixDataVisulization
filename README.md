@@ -17,7 +17,16 @@ Before running the application, make sure you have the following installed:
 Install the required dependencies using the following command:
 
 ```bash
-pip install streamlit pandas matplotlib plotly
+pip install matplotlib==3.7.2
+```
+```bash
+pip install pandas==2.0.3
+```
+```bash
+pip install plotly==5.18.0
+```
+```bash
+pip install streamlit==1.29.0
 ```
 
 ## Running the Application
