@@ -77,7 +77,7 @@ streamlit run main.py
 
 ## Customization
 
-The application allows for easy customization, including theming and background color changes. Modify the `app.py` file and helper functions in `helper.py` to suit your preferences.
+The application allows for easy customization, including theming and background color changes. Modify the `main.py` file and helper functions in `helper.py` to suit your preferences.
 
 ## Dataset
 
