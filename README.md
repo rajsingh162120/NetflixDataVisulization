@@ -85,5 +85,5 @@ The Netflix dataset used in this project is stored in a CSV file named "Netflix-
 
 Feel free to explore, contribute, and adapt the code for your own projects!
 
-## APP Link -
+## Website Link -
 https://netflixdatavisulization.streamlit.app/
