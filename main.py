@@ -104,13 +104,13 @@ def netflix_shows_analysis(data):
 
 def main():
 
+
     # Set page configuration with default layout
     st.set_page_config(
         page_title="Netflix Data Visualization",
         page_icon=":popcorn:",
         initial_sidebar_state="expanded"
     )
-
     # Add CSS to dynamically adjust image width
     st.markdown(
         f"""
@@ -142,6 +142,16 @@ def main():
         unsafe_allow_html=True,
     )
 
+    hide_st_style=""";
+                  <style>
+                  #MainMenu {visibility: hidden;}
+                  footer {visibility: hidden;}
+                  header {visibility: hidden;}
+                  </style>
+                  """
+    
+    st.markdown(hide_st_style,unsafe_allow_html=True)
+    
     analysis_options=[
         "Country-wise Visualization",
         "Netflix Rating Data Visualization",
