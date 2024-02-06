@@ -142,11 +142,10 @@ def main():
         unsafe_allow_html=True,
     )
 
-    hide_st_style=""";
+    hide_st_style="""
                   <style>
                   #MainMenu {visibility: hidden;}
                   footer {visibility: hidden;}
-                  header {visibility: hidden;}
                   </style>
                   """
     
